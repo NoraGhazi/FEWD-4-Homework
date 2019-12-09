@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Card Game</title>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+    <h1> Memory Game </h1>
+    <!-- timer div  -->
+    <div id='TimerDiv'>
+        <p class="time">0 </p>
+        <p>sec</p>
+    </div>
+    <!-- memory game cards  -->
+    <section class="memory-game">
+        <div class="memory-card" data-framework="french-fries">
+
+            <img class="back-face" src="img/french-fries.png" />
+        </div>
+
+        <div class="memory-card" data-framework="french-fries">
+
+            <img class="back-face" src="img/french-fries.png" />
+        </div>
+
+        <div class="memory-card" data-framework="pizza">
+
+            <img class="back-face" src="img/pizza.png" />
+        </div>
+
+        <div class="memory-card" data-framework="pizza">
+
+            <img class="back-face" src="img/pizza.png" />
+        </div>
+
+        <div class="memory-card" data-framework="salad">
+
+            <img class="back-face" src="img/salad.png" />
+        </div>
+
+        <div class="memory-card" data-framework="salad">
+
+            <img class="back-face" src="img/salad.png" />
+        </div>
+
+        <div class="memory-card" data-framework="frozen">
+
+            <img class="back-face" src="img/frozen-yogurt.png" />
+        </div>
+
+        <div class="memory-card" data-framework="frozen">
+
+            <img class="back-face" src="img/frozen-yogurt.png" />
+        </div>
+
+        <div class="memory-card" data-framework="spaghetti">
+
+            <img class="back-face" src="img/spaghetti.png" />
+        </div>
+
+        <div class="memory-card" data-framework="spaghetti">
+
+            <img class="back-face" src="img/spaghetti.png" />
+        </div>
+
+        <div class="memory-card" data-framework="burger">
+
+            <img class="back-face" src="img/burger.png" />
+        </div>
+
+        <div class="memory-card" data-framework="burger">
+
+            <img class="back-face" src="img/burger.png" />
+        </div>
+
+    </section>
+    <!-- winner pop up window  -->
+    <!-- check mark icon  https://ionicons.com/  -->
+    <div class="box">
+        <span class="icon ion-md-checkmark-circle-outline"> </span>
+        <h1>Congratulations, You won in <span id='TimeTaken'></span> seconds</h1>
+        <a id="close">Play Again</a>
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>
